@@ -8,8 +8,12 @@ body{
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
+
+/*Cabecalho*/
 
 header {
     background-color:#3347B0;
@@ -30,4 +34,101 @@ header {
     height: 40px;
     margin: 2% ;
     left: 90%;
+}
+
+
+
+
+
+
+/*Body*/
+
+.body {
+    display: flex;
+    margin: 5% 5%;
+}
+
+.main-text {
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+}
+
+.main-text .nova-cor {
+    color: #3347B0;
+    font-weight: 700;
+}
+
+.main-text .cor-dnv {
+    color: black;
+    font-weight: 200;
+}
+
+.box-ds {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 40vh;
+    background-color: #3347B0;
+    margin-bottom: 50px;
+}
+
+.box-redes {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 40vh;
+    background-color: #3347B0;
+    margin-bottom: 50px;
+}
+
+.boxes h2 {
+    color: #ffffff;
+}
+
+.boxes {
+    margin: 5% 5%;
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: #3347B0;
+    display: flex;
+}
+
+.contatos {
+    margin: 2% 7%;
+    color: #ffffff;
+
+}
+
+.phone {
+    display: flex;
+    margin: 2% 1%;
+    
+}
+
+.email {
+    display: flex;
+        margin: 2% 1%;
+
+}
+
+.local {
+    display: flex;
+        margin: 2% 1%;
+
+}
+
+
+
+.copyright {
+    color: white;
+    align-items: center;
+    margin-top: 5%;
+}
+
+icons-social {
+
 }
