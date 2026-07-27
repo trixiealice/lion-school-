@@ -40,16 +40,31 @@ header {
 
 
 
-
 /*Body*/
 
-.body {
+main {
     display: flex;
     margin: 5% 5%;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
-.main-text {
+.text-device {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.devices {
+    display: flex;
+    height: 400px;
+    }
+
+.main-text{
     color: rgb(0, 0, 0);
+    font-size: 70px;
     font-weight: 200;
 }
 
@@ -58,46 +73,35 @@ header {
     font-weight: 700;
 }
 
-.main-text .cor-dnv {
-    color: black;
-    font-weight: 200;
+.estudante {
+    display: flex;
+    justify-content: center;
+    height: 700px;
 }
 
-.box-ds {
+
+.box-curso {
     display: flex;
     align-items: center;
     height: 18vh;
-    width: 40vh;
+    width: 35vh;
     background-color: #3347B0;
     margin-bottom: 50px;
-    border: 6px solid;
-    border-image: #3347B0;
-
-
+    border: 1px solid;
+    justify-content: center;
+    -webkit-box-shadow: 7px 8px 4px 0px rgba(51,71,176,0.58); 
+    box-shadow: 7px 8px 4px 0px rgba(51,71,176,0.58);
+    cursor: pointer;
+    
 }
 
-.box-ds img {
+.box-curso img {
     height: 80px;
     margin: 10px;
-    margin-left: 25%;
+    
 }
 
-.box-redes {
-    display: flex;
-    align-items: center;
-    height: 20vh;
-    width: 40vh;
-    background-color: #3347B0;
-    margin-bottom: 50px;
-}
-
-.box-redes img {
-    height: 90px;
-    margin: 10px;
-    margin-left: 10%
-}
-
-.boxes h2 {
+.box-cursos h2 {
     color: #ffffff;
     font-size: 55px;
     font-weight: 400;
@@ -111,33 +115,31 @@ header {
 
 /*footer*/
 
-.footer {
+footer {
     background-color: #3347B0;
+    height: 180px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 5%;
+
 }
 
 .contatos {
-    margin: 2% 7%;
-    color: #ffffff;
-
-}
-
-.phone {
-    display: flex;
-    margin: 2% 1%;
     
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+
 }
 
-.email {
+.contato {
     display: flex;
-        margin: 2% 1%;
-
-}
-
-.local {
-    display: flex;
-        margin: 2% 1%;
-
+    align-items: center;
+    gap: 22px;
 }
 
 
@@ -145,9 +147,11 @@ header {
 .copyright {
     color: white;
     align-items: center;
-    margin-top: 5%;
+    
 }
 
 .icons-social {
-
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
