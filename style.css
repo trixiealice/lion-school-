@@ -66,10 +66,20 @@ header {
 .box-ds {
     display: flex;
     align-items: center;
-    height: 20vh;
+    height: 18vh;
     width: 40vh;
     background-color: #3347B0;
     margin-bottom: 50px;
+    border: 6px solid;
+    border-image: #3347B0;
+
+
+}
+
+.box-ds img {
+    height: 80px;
+    margin: 10px;
+    margin-left: 25%;
 }
 
 .box-redes {
@@ -81,8 +91,17 @@ header {
     margin-bottom: 50px;
 }
 
+.box-redes img {
+    height: 90px;
+    margin: 10px;
+    margin-left: 10%
+}
+
 .boxes h2 {
     color: #ffffff;
+    font-size: 55px;
+    font-weight: 400;
+    margin-left: 10px;
 }
 
 .boxes {
@@ -129,6 +148,6 @@ header {
     margin-top: 5%;
 }
 
-icons-social {
+.icons-social {
 
 }
