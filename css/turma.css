@@ -46,14 +46,112 @@ body{
 
 
 .header-baixo {
-    background-color: #BCC2E5;
     display: flex;
-    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BCC2E5;
+    height: 50px;
+    display: flex;
+    color:#3347B0;
+    padding: 0px 52px;
 
+}
+
+.container-legendas {
+    display: flex;
+    gap: 20px;
+}
+
+.header-baixo h3 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.legenda-cor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cor-legenda-um {
+    width: 10px;
+    height: 10px;
+    background-color: #E5B657;
+
+}
+
+.cor-legenda-dois {
+    width: 10px;
+    height: 10px;
+    background-color: #3347B0;
 }
 
 
 
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5%;
+    align-items: center;
+    color: white;
+}
+
+main h1 {
+    color: #3347B0;
+    margin-bottom: 100px;
+
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+
+.card-aluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3347B0;
+    height: 300px;
+    width: 200px;
+    box-shadow: 4px 4px 10px #787878;
+
+}
+
+.card-aluna h3 {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-weight: 500;
+    margin-top: 6%;
+    text-shadow: 1px 3px 5px #102070;
+        padding: 0px 15px;
+
+}
+
+
+.card-aluno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5B657;
+    height: 300px;
+    width: 200px;
+    box-shadow: 4px 4px 10px #787878;
+
+}
+
+.card-aluno h3 {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-weight: 500;
+    margin-top: 6%;
+    text-shadow: 1px 3px 5px #846932;
+}
 
 
 
