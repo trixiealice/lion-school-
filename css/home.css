@@ -91,9 +91,8 @@ main {
     margin-bottom: 50px;
     border: 1px solid;
     justify-content: center;
-    -webkit-box-shadow: 7px 8px 4px 0px rgba(51,71,176,0.58); 
-    box-shadow: 7px 8px 4px 0px rgba(51,71,176,0.58);
     cursor: pointer;
+    transition: .2s ease-in;
     
 }
 
@@ -108,6 +107,12 @@ main {
     font-size: 55px;
     font-weight: 400;
     margin-left: 10px;
+}
+
+.box-curso:hover{
+    transform: scale(1.04);
+    -webkit-box-shadow: 7px 8px 4px 0px rgba(51,71,176,0.58); 
+    box-shadow: 7px 8px 4px 0px rgba(51,71,176,0.58);
 }
 
 .boxes {
@@ -156,4 +161,12 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    
 }
+
+.icons-social img:hover{
+    transform: scale(1.2);
+    transition: .2s ease-in-out;
+
+}
+
